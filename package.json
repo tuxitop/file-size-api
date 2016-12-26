@@ -16,7 +16,9 @@
     "multer": "^1.2.1",
     "pug": "^2.0.0-beta6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "description": "A training application for freecodecamp.com",
   "main": "app.js",
   "repository": {
