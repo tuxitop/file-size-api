@@ -8,6 +8,11 @@ p {
     max-width: 700px;
 }
 
+.upload-form {
+    background-color: #ffeacc;
+    text-align: center;
+}
+
 code {
     background-color: #ececec;
     font-size: 14px;

@@ -2,10 +2,15 @@ extends layout
 
 block content
     h1= title
+    div.upload-form
+        h2.form-title Upload a file
+        form(method="post", action="/", enctype="multipart/form-data")
+            input(type="file", name="file", id="file", required)
+            input(type="submit" value="Submit")
     h2 Guide
     p.
-        You can upload a file in the form and the it will return a JSON with
-        the file size in Bytes.
+        You can upload a file in the form and recieve a JSON with the file size
+        in Bytes.
     h2 Example output
     p
         code `{ "size: 63925" }`
