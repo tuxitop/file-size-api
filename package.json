@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/tuxitop/file-size-api#readme",
   "engines": {
-    "node": "7.2.x"
+    "node": "7.10.x"
   }
 }
