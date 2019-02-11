@@ -9,14 +9,15 @@
     "devel": "nodemon ./bin/www"
   },
   "dependencies": {
-    "debug": "~2.2.0",
-    "express": "~4.14.0",
+    "debug": "~4.1.1",
+    "express": "~4.16.4",
     "forever": "^0.15.3",
-    "morgan": "~1.7.0",
+    "morgan": "~1.9.1",
     "multer": "^1.2.1",
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "mocha": "^5.2.0",
     "nodemon": "^1.11.0"
   },
   "description": "A training application for freecodecamp.com",
