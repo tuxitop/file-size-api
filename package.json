@@ -17,7 +17,7 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.0"
   },
   "description": "A training application for freecodecamp.com",
